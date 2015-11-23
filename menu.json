@@ -1,0 +1,17 @@
+{
+  mainMenu: [
+    {
+      "name": "Pho Tick Tock",
+      "price": "$16|$28",
+      "description": "Rare flap, grilled flap, lengua, tendon, meat balls"
+    },
+    {
+      "name": "Pho Tick Tock",
+      "price": "$16|$28",
+      "description": "Rare flap, grilled flap, lengua, tendon, meat balls"
+    }
+  ], 
+  happyHour: [], 
+  appetizer: [],
+  drink: []
+}
