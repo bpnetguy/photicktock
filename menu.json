@@ -5,31 +5,31 @@
       "price": "$16|$28",
       "image": "IMG_8958.jpg",
       "description": "Rare flap, grilled flap, lengua, tendon, meat balls"
-    },
-   
-  ], 
-  "happyhour": [ 
+    }
+
+  ],
+  "happyhour": [
     {
       "name": "Pho Tick Tock",
       "price": "$16|$28",
       "image": "IMG_8714.jpg",
       "description": "Rare flap, grilled flap, lengua, tendon, meat balls"
-    },
-  ], 
+    }
+  ],
   "appetizer": [
-     {
+    {
       "name": "Pho Tick Tock",
       "price": "$16|$28",
       "image": "IMG_8714.jpg",
       "description": "Rare flap, grilled flap, lengua, tendon, meat balls"
-    },
+    }
   ],
   "drink": [
-     {
+    {
       "name": "Pho Tick Tock",
       "price": "$16|$28",
       "image": "IMG_8714.jpg",
       "description": "Rare flap, grilled flap, lengua, tendon, meat balls."
-    }, 
+    }
   ]
 }
