@@ -1,35 +1,459 @@
 {
-  "mainmenu": [
-    {
-      "name": "Pho Tick Tock",
-      "price": "$16|$28",
-      "image": "IMG_8958.jpg",
-      "description": "Rare flap, grilled flap, lengua, tendon, meat balls"
-    }
+  "Main Menu": {
+    "text": "",
+    "menu": [
+      {
+        "title": "Pho Tick Tock",
+        "price": "$8.5 | $28",
+        "subtitle": "",
+        "image": "IMG_8697.jpg",
+        "description": "Rae flap, grilled flap, lengua tendon, meat balls"
+      },
+      {
+        "title": "Bánh Mì | Hủ Tiếu Bò Kho",
+        "price": "$9.5",
+        "subtitle": "",
+        "image": "IMG_9822.jpg",
+        "description": "Beef stew with French baguette or noodles"
+      },
+      {
+        "title": "Bún Thịt Nướng",
+        "subtitle": "Gà | Heo | Chả Gi Chay",
+        "price": "$9",
+        "description": "Vermicelli noodles w/ BBQ pork or chicken"
+      },
 
-  ],
-  "happyhour": [
-    {
-      "name": "Pho Tick Tock",
-      "price": "$16|$28",
-      "image": "IMG_8714.jpg",
-      "description": "Rare flap, grilled flap, lengua, tendon, meat balls"
-    }
-  ],
-  "appetizer": [
-    {
-      "name": "Pho Tick Tock",
-      "price": "$16|$28",
-      "image": "IMG_8714.jpg",
-      "description": "Rare flap, grilled flap, lengua, tendon, meat balls"
-    }
-  ],
-  "drink": [
-    {
-      "name": "Pho Tick Tock",
-      "price": "$16|$28",
-      "image": "IMG_8714.jpg",
-      "description": "Rare flap, grilled flap, lengua, tendon, meat balls."
-    }
-  ]
+      {
+        "title": "Bun Combo",
+        "subtitle": "Tom, Thit Nuong, Cha Gio",
+        "price": "$11.5",
+        "image": "IMG_9799.jpg",
+        "description": "Vermicelli noodles w/ tiger prawns, BBQ pork, egg rolls"
+      },
+
+      {
+        "title": "Com Thịt Nướng",
+        "subtitle": "Gà | Heo",
+        "price": "$9",
+        "description": "Rice plate with grilled pork or chicken"
+      },
+
+      {
+        "title": "Com Combo",
+        "subtitle": "Thit nuong, Bi, Trung, Tom",
+        "price": "$11.5",
+        "image": "IMG_9796.jpg",
+
+        "description": "Rice plate with BBQ pork, shredded pork skin, egg sunny side up, prawns"
+      },
+
+      {
+        "title": "Bo Streak Nuong (8 oz)",
+        "subtitle": "Com | Mi Toi",
+        "image": "IMG_9820.jpg",
+        "price": "$18.75",
+        "description": "Grilled steak w/ rice or garlic noodle"
+      },
+
+      {
+        "title": "Shrimp Tick Tock",
+        "price": "$12.5",
+        "subtitle": "",
+        "description": "Stir fry shrimp with coconut milk, wine, garlic sauce"
+      },
+
+      {
+        "title": "Thit Cuu Nuong",
+        "subtitle": "Com | Mi Toi",
+        "price": "$12.5",
+        "image": "IMG_9839.jpg",
+        "description": "Grilled lamb chomps with garlic noodles"
+      }
+    ]
+  },
+  "Happy Hour": {
+    "text": "Mon - Fri: 5PM - 7PM",
+    "menu": [
+      {
+        "subtitle": "From the Kitchen",
+        "items": [
+          {
+            "title": "Thịt Nướng Xo Xau",
+            "price": "$1",
+            "subtitle": "",
+            "description": "Grilled pork skewers"
+          },
+          {
+            "title": "Khoai Tay Chien",
+            "price": "$3",
+            "subtitle": "",
+            "description": "Truffle Gàrlic fries"
+          },
+          {
+            "title": "Goi Cuon Thit Nuong",
+            "price": "$4",
+            "subtitle": "",
+            "image": "IMG_9826.jpg",
+            "description": "Grilled pork spring rolls"
+          },
+          {
+            "title": "Goi Gan Bo Bap Chuoi",
+            "price": "$5",
+            "subtitle": "",
+            "image": "IMG_8664.jpg",
+            "description": "Banana blossom beef tendon salad"
+          },
+          {
+            "title": "Rau Muc Chien Don",
+            "price": "$5",
+            "subtitle": "",
+            "description": "Fried calamari with basil leaves"
+          },
+          {
+            "title": "Muc Xien Nuong",
+            "price": "$5",
+            "subtitle": "",
+            "image": "IMG_8668.jpg",
+            "description": "Grilled calamari skewers"
+          },
+          {
+            "title": "Canh Ga Chien",
+            "price": "$5",
+            "subtitle": "",
+            "description": "Friend chicken wings"
+          },
+          {
+            "title": "Tom Cop Xien Nuong",
+            "price": "$6",
+            "subtitle": "",
+            "image": "IMG_8666.jpg",
+
+            "description": "Grilled tiger prawn skewers"
+          }
+        ]
+      },
+      {
+        "subtitle": "From the Bar",
+        "items": [
+          {
+            "title": "Bottled Beer",
+            "price": "$2",
+            "image": "",
+            "description": "Blue Moon, Corona, Heineken, Stella Artois"
+          },
+          {
+            "title": "House Wine",
+            "price": "$5",
+            "image": "IMG_8687.jpg",
+            "description": "Red Blend, White"
+          },
+          {
+            "title": "Tick Tock Mixed Drinks",
+            "price": "$5",
+            "image": "IMG_8708.jpg",
+            "submenu": [
+              {
+                "title": "Moscow Mule",
+
+
+                "description": "fresh lime juice, ginger beer, white wine"
+              },
+              {
+                "title": "Sexy Sangria",
+                "description": "wine infused with fresh fruits"
+              },
+              {
+                "title": "Strawberry Mojito",
+                "description": "fresh lime juice, ginger beer, white wine, Mìnt",
+                "image": "IMG_8703.jpg"
+
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Appetizers": {
+    "menu": [
+      {
+        "title": "Gỏi Cuốn Tôm, Thịt",
+        "price": "$6",
+        "image": "IMG_9826.jpg",
+        "subtitle": "",
+        "description": "Pork and shrimp spring rolls."
+      },
+      {
+        "title": "Chả Giò - Thập Cẩm, Tôm Hành, Chay",
+        "price": "$6",
+        "image": "IMG_9799.jpg",
+        "subtitle": "",
+        "submenu": [
+          {
+            "title": "Egg rolls - combination/ shrimp /vegetarian"
+          },
+          {
+            "title": "Grilled eggplant w/ Tick Tock sauce"
+          }
+        ]
+      },
+      {
+        "title": "Mì Tỏi - Garlic Noodle",
+        "subtitle": "",
+        "price": "$5",
+        "image": "placeholder.jpg"
+      },
+      {
+        "title": "Gỏi Gân Bò Bắp Chuối",
+        "price": "$7",
+        "subtitle": "",
+
+        "image": "placeholder.jpg",
+        "description": "Banana blossom beef tendon salad"
+
+      },
+      {
+        "title": "Gỏi Nướng Tái Chanh",
+        "subtitle": "",
+        "description": "Kaffir lime grilled beef ",
+        "price": "$7",
+        "image": "placeholder.jpg"
+      },
+      {
+        "title": "Cà Tím Nướng Mỡ Hành",
+        "subtitle": "",
+
+        "description": "Grilled eggplant w/ Tick Tock sauce",
+        "price": "$7",
+        "image": "placeholder.jpg"
+      },
+      {
+        "title": "Râu Mực Chiên ",
+        "subtitle": "",
+
+        "price": "$7",
+        "description": "Fried calamari skewers",
+        "image": "placeholder.jpg"
+      },
+      {
+        "title": "Mực Xiên Nướng",
+        "subtitle": "",
+        "price": "$7",
+        "description": "Grilled calamari skewers",
+        "image": "IMG_8668.jpg"
+      },
+      {
+        "title": "Tôm Cọp Xiên Nướng",
+        "subtitle": "",
+        "price": "$8",
+        "description": "Grilled tiger prawn skewers",
+        "image": "IMG_8666.jpg"
+      },
+      {
+        "title": "Gà Chiên Nước Mắm",
+        "price": "$6",
+        "description": "Chicken wings with sweet fish sauce",
+        "image": "placeholder.jpg"
+      },
+      {
+        "title": "Khoai Tay Chien",
+        "price": "$7",
+        "subtitle": "",
+
+        "description": "Truffle garlic french fries",
+        "image": "placeholder.jpg"
+      },
+      {
+        "subtitle": "Side Orders",
+        "subtitle": "",
+
+        "class": "no-icon",
+        "items": [
+          {
+            "title": "Grilled Pork Skewers (1)",
+            "price": "$3",
+            "image": "",
+            "description": ""
+          },
+          {
+            "title": "Grilled prawns (1)",
+            "price": "$3",
+            "image": ""
+          },
+          {
+            "title": "Shredded pork skin (1)",
+            "price": "$3",
+            "image": ""
+          },
+          {
+            "title": "Eggroll (2)",
+            "price": "$3",
+            "image": ""
+          },
+          {
+            "title": "Egg-Sunny side up (1)",
+            "price": "$1.5",
+            "image": ""
+          },
+          {
+            "title": "Bread (1)",
+            "price": "$1.5",
+            "image": ""
+          },
+          {
+            "title": "Steamed rice",
+            "price": "$1",
+            "image": ""
+          }
+        ]
+      }
+
+    ]
+  },
+  "Drinks": {
+    "menu": [
+      {
+        "subtitle": "Beverages",
+        "items": [
+          {
+            "title": "Ca Phe",
+            "subtitle": "Vietnamese coffee ",
+            "price": "$3.5 | $4",
+            "image": "IMG_8686.jpg"
+          },
+          {
+            "title": "Tra(Nong/Da)",
+            "subtitle": "Tea (Hot/Cold) ",
+            "price": "$1.5 | $3",
+            "image": "IMG_8676.jpg"
+          },
+          {
+            "title": "Thai Iced Tea/Coffee",
+            "price": "$3.5",
+            "subtitle":" ",
+            "image": "IMG_8678.jpg"
+          },
+          {
+            "title": "Jasmine Milk Tea",
+            "price": "$3.5",
+            "subtitle":"",
+            "image": "placeholder.jpg"
+          },
+          {
+            "title": "Strawberry Shortcake Milk Tea",
+            "price": "$3.5",
+            "subtitle":"",
+            "image": "placeholder.jpg"
+          },
+          {
+            "title": "Nuoc Chanh",
+            "subtitle": "Fresh or Soda Lemonade",
+            "price": "$3.5",
+            "image": "IMG_8675.jpg",
+            "submenu": [
+              {
+                "title": "Vai, Day, Dau, Thom"
+              },
+              {
+                "title": "Lychee, Passion Fruit, Strawberry, Pineapple"
+              }
+            ]
+          },
+          {
+            "title": "Coke | Pepsi | Sprite",
+            "price": "$2",
+            "subtitle":"",
+            "image": "placeholder.jpg"
+          },
+          {
+            "title": "Nuoc Ngot Y",
+            "subtitle": "Italian Sodas",
+            "price": "$3.5",
+            "image": "IMG_8672.jpg",
+            "submenu": [
+              {
+                "title": "Cherry, Mango, Passion Fruit"
+              }, {
+                "title": "Peach, Pomegranate, Raspberry, Strawberry"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subtitle": "Alcoholic Beverages",
+        "items": [
+          {
+            "title": "Bottled Beer",
+            "price": "$4",
+            "subtitle":"",
+            "image": "",
+            "description": "Blue Moon, Corona, Heineken, Stella Artois"
+          },
+          {
+            "title": "House Wine",
+            "price": "$7",
+            "subtitle":"",
+            "image": "IMG_8687.jpg",
+            "description": "Red Blend, White"
+          },
+          {
+            "title": "Tick Tock Mìxed Drinks",
+            "price": "$8",
+            "image": "IMG_8708.jpg",
+            "subtitle":"",
+            "submenu": [
+              {
+                "title": "Moscow Mule",
+                "description": "fresh lime juice, ginger beer, white wine"
+              },
+              {
+                "title": "Sexy Sangria",
+                "description": "wine infused with fresh fruits",
+                "image": "IMG_8689.jpg"
+              },
+              {
+                "title": "Strawberry Mojito",
+                "description": "fresh lime juice, ginger beer, white wine, Mìnt"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subtitle": "Desserts",
+        "items": [
+          {
+            "title": "Che Buoi",
+            "price": "$3 | $5",
+            "subtitle":"",
+            "image": "IMG_8711.jpg",
+            "description": "Pomelo pudding-seasonal | Togo"
+          },
+          {
+            "title": "Kem Chuoi Chien",
+            "price": "$5",
+            "subtitle":"",
+            "image": "",
+            "description": "Fried Banana w/ ice cream"
+          },
+          {
+            "title": "Raspberry Chocolate Lava Cake",
+            "price": "$7",
+            "subtitle":"",
+            "image": ""
+          },
+          {
+            "title": "Peppermint Chocolate Cake w/ Fudge",
+            "price": "$7",
+            "subtitle":"",
+            "image": ""
+          }
+
+        ]
+      }
+    ]
+  }
 }
+
+
